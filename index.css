@@ -1,67 +1,83 @@
-*{padding: 0px;
-    margin: 10px;}
-    a{
-        text-decoration: none;
-        color: black;
-    }
-    h1{background-color: #ced4f7;
-        height: 100%;
-        width: 250px;
+* {
+    padding: 0px;
+    margin: 10px;
+    font-size: 20px;
+}
 
-    }
-    body{
-        font-family: 'Segoe UI', sans-serif;
-        background:url(img/fundoazul.png);
-        background-size: 100%;
+a {
+    text-decoration: #07c1f0;
+    color: black;
+    font-size: larger;
+    font-style:normal
+}
+
+h1 {
+    background-color: #d4d8ee;
+    height: 80%;
+    width: 200px;
+
+}
+
+body {
     
-    }
-    ul{
-        list-style:none;
+    background: url(img/fundoazul.png);
+    background-size: 100%;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+img {
+    width: 80px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+nav {
     
-    }
-    img{
-        width:60px;
-    }
-    
-    input[type="checkbox"]{display: none;}
-    
-    nav{
-        background-color: #3d5deb;
-        width:250px;
-        height:100%;
-        nav-left: -250px;
-        position:absolute;
-        transition: all.5s;
-    }
-    input[ type="checkbox"]:checked nav{transform: translateX(250);}
-    
-    ul{
-        background-color:  #070592f6;
-        top: 100px;
-        position: absolute;
-        width: 100%;
-    }
-    
-    
-    a{
-        
-        display: block;
-        padding: 20px 5px;
-        color: #e0e4fa;
-    
-    }
-    a:hover{
-        background-color:#5687f0;
-        color: black;
-    }
-    
-    label{
-        
-        padding: 18px;
-        position: absolute;
-        z-index: 1;
-    }
-    head{
-        background-color: cornflowerblue;
-        font-family: 'Segoe UI', sans-serif;
-    }
+    width: 255px;
+    height: 100%;
+    nav-left: -255px;
+    position: absolute;
+    transition: all.8s;
+}
+
+input[ type="checkbox"]:checked nav {
+    transform: translateX(255);
+}
+
+ul {
+    background-color: #070592f6;
+    top: 100px;
+    position: absolute;
+    width: 150%;
+}
+
+
+a {
+
+    display: inline block;
+    padding: 20px 8px;
+    color: #e0e4fa;
+
+}
+
+a:hover {
+    font-size: 18px;
+    text-decoration: solid #030227f6;
+    background-color: #5687f0;
+    color: black;
+}
+
+label {
+
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
